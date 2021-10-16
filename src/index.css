@@ -7,6 +7,19 @@ h1 {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('./images/silverdots.jpeg');
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+img:hover,
+h1:hover {
+  background-color: #ff6ec7;
+  padding: 4px;
 }
 
 code {
