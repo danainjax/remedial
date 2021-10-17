@@ -13,14 +13,19 @@ export class BlogPost extends Component {
           title='Space Mountain'
           image={SpaceMountain}
         />
-        <Comment text={'This is the first comment'} />
+
+        <Comment text={'This is the first comment, create an input box'} />
 
         <BlogContent
           text='Rockin Rollercoaster is Aerosmith heavy and a lot of guitar riffs including an upside down revolution...'
           title='Rockin Rollercoaster'
           image={RockinRollercoaster}
         />
-        <Comment text={'This is the second posts comment'} />
+        <Comment
+          text={
+            'This is the second posts comment, create an input box beneath these'
+          }
+        />
         <Comment text={'practice in passing text to the comment component'} />
       </div>
     )

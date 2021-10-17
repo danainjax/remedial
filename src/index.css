@@ -10,6 +10,14 @@ body {
   background-image: url('./images/silverdots.jpeg');
 }
 
+button {
+  background-color: pink;
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+  margin: 5px;
+}
+
 img {
   height: 300px;
   width: 400px;
